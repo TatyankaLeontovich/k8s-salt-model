@@ -3,7 +3,7 @@ classes:
 - system.haproxy.proxy.listen.kubernetes.etcd
 - system.haproxy.proxy.listen.kubernetes.apiserver
 - system.linux.system.repo.docker
-#- system.salt.minion.cert.k8s_server_certificate
+- system.salt.minion.cert.etcd_server
 - system.kubernetes.master.cluster
 - cluster.k8s-salt-model.kubernetes.compute
 - cluster.k8s-salt-model
