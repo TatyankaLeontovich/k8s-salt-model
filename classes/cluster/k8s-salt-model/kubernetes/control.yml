@@ -13,6 +13,7 @@ parameters:
     keepalived_vip_virtual_router_id: 60
   etcd:
     server:
+      certs: true
       setup:
         calico:
           key: /calico/v1/ipam/v4/pool/${_param:calico_private_network}-${_param:calico_private_netmask}
