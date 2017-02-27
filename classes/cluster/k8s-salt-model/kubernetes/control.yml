@@ -4,7 +4,6 @@ classes:
 - system.haproxy.proxy.listen.kubernetes.apiserver
 - system.linux.system.repo.docker
 - system.salt.minion.cert.etcd_server
-- system.salt.minion.cert.etcd_client
 - system.kubernetes.master.cluster
 - cluster.k8s-salt-model.kubernetes.compute
 - cluster.k8s-salt-model
