@@ -9,7 +9,7 @@ parameters:
   docker:
     host:
       pkgs:
-        - docker-engine=1.12.6-0~ubuntu-xenial
+        - docker-engine=1.13.0-0~ubuntu-xenial
         - python-docker
   kubernetes:
     pool:
@@ -29,7 +29,7 @@ parameters:
 #          - /srv/calico/custom_filters.cfg:/etc/calico/confd/config/custom_filters.cfg
     common:
       hyperkube:
-        image: docker-prod-virtual.docker.mirantis.net/mirantis/kubernetes/hyperkube-amd64:v1.5.4-5
+        image: docker-dev-virtual.docker.mirantis.net/mirantis/kubernetes/hyperkube-amd64:v1.6.1-1_1491395924598
 ##FIXME
  # linux:
  #   network:
